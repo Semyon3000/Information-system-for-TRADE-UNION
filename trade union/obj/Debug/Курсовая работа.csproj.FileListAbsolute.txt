@@ -1,0 +1,32 @@
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe.config
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.exe
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\Курсовая работа.pdb
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.AssemblyReference.cache
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.SuggestedBindingRedirects.cache
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Properties.Resources.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.GenerateResource.cache
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.CoreCompileInputs.cache
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.exe
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.pdb
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.login_window_1.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.login_window_stu.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.login_window_sot.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.registration_stu.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.actions_sot.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.actions_stu.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Itog_spisok.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Otchot.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Otchot_kategory.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.proverka_1.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.prpverka_2.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.registration_sot.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Statement2.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая_работа.Status_statement.resources
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\System.Buffers.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.exe.config
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\System.ValueTuple.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\semyo\source\repos\Курсовая работа\Курсовая работа\obj\Debug\Курсовая работа.csproj.CopyComplete

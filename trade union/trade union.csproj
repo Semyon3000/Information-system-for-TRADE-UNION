@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D776042A-00B3-40E5-9BE4-429047617EC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Курсовая_работа</RootNamespace>
+    <AssemblyName>Курсовая работа</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\..\..\..\..\..\program files\microsoft visual studio\2022\community\common7\ide\extensions\4hb0ngeg.mcf\Assemblies\DataProviders\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.VsDevTools.EntityFramework.17.0, Version=6.122.21.7, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actions_sot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actions_sot.Designer.cs">
+      <DependentUpon>actions_sot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actions_stu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actions_stu.Designer.cs">
+      <DependentUpon>actions_stu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Otchot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otchot.Designer.cs">
+      <DependentUpon>Otchot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Itog_spisok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Itog_spisok.Designer.cs">
+      <DependentUpon>Itog_spisok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_window_sot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_window_sot.Designer.cs">
+      <DependentUpon>login_window_sot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_window_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_window_1.Designer.cs">
+      <DependentUpon>login_window_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_window_stu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_window_stu.Designer.cs">
+      <DependentUpon>login_window_stu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Otchot_kategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otchot_kategory.Designer.cs">
+      <DependentUpon>Otchot_kategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proverka_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="proverka_1.Designer.cs">
+      <DependentUpon>proverka_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prpverka_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prpverka_2.Designer.cs">
+      <DependentUpon>prpverka_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registration_sot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration_sot.Designer.cs">
+      <DependentUpon>registration_sot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registration_stu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration_stu.Designer.cs">
+      <DependentUpon>registration_stu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statement2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statement2.Designer.cs">
+      <DependentUpon>Statement2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Status_statement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status_statement.Designer.cs">
+      <DependentUpon>Status_statement.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="actions_sot.resx">
+      <DependentUpon>actions_sot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actions_stu.resx">
+      <DependentUpon>actions_stu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Itog_spisok.resx">
+      <DependentUpon>Itog_spisok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_window_1.resx">
+      <DependentUpon>login_window_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_window_sot.resx">
+      <DependentUpon>login_window_sot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_window_stu.resx">
+      <DependentUpon>login_window_stu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otchot.resx">
+      <DependentUpon>Otchot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otchot_kategory.resx">
+      <DependentUpon>Otchot_kategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="proverka_1.resx">
+      <DependentUpon>proverka_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prpverka_2.resx">
+      <DependentUpon>prpverka_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration_sot.resx">
+      <DependentUpon>registration_sot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration_stu.resx">
+      <DependentUpon>registration_stu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statement2.resx">
+      <DependentUpon>Statement2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Status_statement.resx">
+      <DependentUpon>Status_statement.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
